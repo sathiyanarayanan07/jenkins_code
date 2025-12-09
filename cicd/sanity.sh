@@ -16,7 +16,7 @@ cd ../Backend/Ai_LMS_Backed
 
 # Create virtual environment
 python3 -m venv venv
-source venv/bin/activate
+. venv/bin/activate
 
 # Install python requirements
 pip install --quiet -r requirements.txt
