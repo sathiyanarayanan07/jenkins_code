@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         nodejs "node22"
-        python "python3"
     }
 
     environment {
@@ -13,6 +12,12 @@ pipeline {
     }
 
     stages {
+
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
 
         stage('Install Frontend Dependencies') {
             steps {
@@ -33,6 +38,7 @@ pipeline {
         stage('Sanity Test') {
             steps {
                 dir(CICD_DIR) {
+                    sh 'chmod +x sanity.sh'
                     sh './sanity.sh'
                 }
             }
@@ -41,6 +47,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 dir(CICD_DIR) {
+                    sh 'chmod +x deploy.sh'
                     sh './deploy.sh'
                 }
             }
