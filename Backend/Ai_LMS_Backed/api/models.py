@@ -17,10 +17,8 @@ from django.db import models
 
 
 
-
-
 class University(models.Model):
-    name=models.CharField(max_length=100)
+    name=models.CharField(max_length=150)
     email=models.EmailField(unique=True)
     address = models.CharField(max_length=255)
     password=models.CharField(max_length=100)
