@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         FRONTEND_DIR = "Ai_LMS_Frontend"
-        BACKEND_DIR  = "Backend/Ai_Lms_Backend"
+        BACKEND_DIR  = "Backend/Ai_LMS_Backed"
         CICD_DIR     = "cicd"
     }
 
