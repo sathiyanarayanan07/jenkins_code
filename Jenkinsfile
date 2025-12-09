@@ -27,6 +27,18 @@ pipeline {
             }
         }
 
+        stage('Install Backend Dependencies') {
+            steps {
+                dir(BACKEND_DIR) {
+                    sh '''
+                        python3 -m venv venv
+                        source venv/bin/activate
+                        pip install -r requirements.txt
+                    '''
+                }
+            }
+        }
+
         stage('Build Frontend') {
             steps {
                 dir(FRONTEND_DIR) {
