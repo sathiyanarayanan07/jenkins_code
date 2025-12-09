@@ -1,0 +1,2404 @@
+/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/db/backends/utils.py:98: RuntimeWarning: Accessing the database during app initialization is discouraged. To fix this warning, avoid executing queries in AppConfig.ready() or when your app modules are imported.
+  warnings.warn(self.APPS_NOT_READY_WARNING_MSG, category=RuntimeWarning)
+/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/db/backends/utils.py:98: RuntimeWarning: Accessing the database during app initialization is discouraged. To fix this warning, avoid executing queries in AppConfig.ready() or when your app modules are imported.
+  warnings.warn(self.APPS_NOT_READY_WARNING_MSG, category=RuntimeWarning)
+Watching for file changes with StatReloader
+[13/Nov/2025 06:11:55] "GET /admin/ HTTP/1.1" 302 0
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-12 11:06:02 UTC)" was missed by 0:05:53.421588
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-13 06:16:51 UTC)" was missed by 0:25:04.350197
+[13/Nov/2025 06:11:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-12 11:21:36 UTC)" was missed by 0:20:19.595898
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-12 11:21:56 UTC)" was missed by 0:19:58.781603
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-13 06:23:09 UTC)" was missed by 0:18:46.065913
+Run time of job "Daily student enrollment (trigger: interval[0:30:00], next run at: 2025-11-13 06:27:06 UTC)" was missed by 0:14:49.132299
+[13/Nov/2025 08:53:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 13, 2025 - 06:11:50
+Django version 5.2.1, using settings 'backendnew.settings'
+Starting development server at http://127.0.0.1:8002/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+[15/Nov/2025 12:03:42] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[15/Nov/2025 12:03:42] "GET /api/course/ HTTP/1.1" 200 19318
+[15/Nov/2025 12:03:46] "GET /admin/ HTTP/1.1" 302 0
+[15/Nov/2025 12:03:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+[16/Nov/2025 13:13:44] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[16/Nov/2025 13:13:45] "GET /api/course/ HTTP/1.1" 200 19318
+[16/Nov/2025 13:13:53] "GET /admin/ HTTP/1.1" 302 0
+[16/Nov/2025 13:13:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[16/Nov/2025 13:14:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+books not found when generating links
+[16/Nov/2025 13:14:06] "GET /admin/ HTTP/1.1" 200 66232
+books not found when generating links
+[16/Nov/2025 13:14:17] "GET /admin/ HTTP/1.1" 200 66232
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+[17/Nov/2025 05:23:45] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 05:23:45] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 05:55:44] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 05:55:44] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 05:55:44] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 05:55:44] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 05:55:44] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 05:55:45] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:20:40] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:20:40] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:40:47] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 06:40:47] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:40:51] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2025 06:40:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[17/Nov/2025 06:44:16] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 06:44:16] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:44:20] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2025 06:44:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[17/Nov/2025 06:44:35] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3543
+[17/Nov/2025 06:44:39] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+books not found when generating links
+[17/Nov/2025 06:44:39] "GET /admin/ HTTP/1.1" 200 66232
+[17/Nov/2025 06:45:39] "GET /api/listblogs/ HTTP/1.1" 200 6051
+[17/Nov/2025 06:45:39] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:45:46] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2025 06:45:46] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[17/Nov/2025 06:45:56] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+books not found when generating links
+[17/Nov/2025 06:45:56] "GET /admin/ HTTP/1.1" 200 66232
+books not found when generating links
+[17/Nov/2025 06:46:08] "GET /admin/api/blog/ HTTP/1.1" 200 29364
+[17/Nov/2025 06:46:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+books not found when generating links
+[17/Nov/2025 06:46:10] "GET /admin/api/blog/3/change/ HTTP/1.1" 200 33041
+[17/Nov/2025 06:46:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[17/Nov/2025 06:46:16] "POST /admin/api/blog/3/change/ HTTP/1.1" 302 0
+books not found when generating links
+[17/Nov/2025 06:46:16] "GET /admin/api/blog/ HTTP/1.1" 200 29928
+[17/Nov/2025 06:46:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[17/Nov/2025 06:46:22] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 06:46:22] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 06:46:22] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:22] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:23] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:23] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:24] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:24] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:24] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:24] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:28] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:28] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:28] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:28] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:29] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:29] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:35] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:35] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:39] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:39] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:46:39] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:40] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:46:41] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:46:41] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:48:01] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2025 06:48:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[17/Nov/2025 06:48:14] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+books not found when generating links
+[17/Nov/2025 06:48:14] "GET /admin/ HTTP/1.1" 200 66923
+[17/Nov/2025 06:48:22] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/progresscourses/
+[17/Nov/2025 06:48:22] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/completedcourses/
+[17/Nov/2025 06:48:22] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 06:48:22] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+[17/Nov/2025 06:48:22] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/studentprogress/
+[17/Nov/2025 06:48:22] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/progresscourses/
+[17/Nov/2025 06:48:22] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/completedcourses/
+[17/Nov/2025 06:48:22] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 06:48:29] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 06:48:29] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 06:48:29] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/completedcourses/
+[17/Nov/2025 06:48:29] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/progresscourses/
+[17/Nov/2025 06:48:29] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 06:48:29] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+[17/Nov/2025 06:48:29] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/progresscourses/
+Not Found: /api/completedcourses/
+[17/Nov/2025 06:48:29] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 06:48:29] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 06:48:30] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+[17/Nov/2025 06:48:30] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:48:30] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 06:48:42] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:48:42] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:50:18] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:50:18] "GET /api/coursecategory/ HTTP/1.1" 200 237
+books not found when generating links
+[17/Nov/2025 06:51:22] "GET /admin/api/student/ HTTP/1.1" 200 30097
+[17/Nov/2025 06:51:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+books not found when generating links
+[17/Nov/2025 06:51:25] "GET /admin/api/student/?o=1 HTTP/1.1" 200 30673
+[17/Nov/2025 06:51:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+books not found when generating links
+[17/Nov/2025 06:51:29] "GET /admin/api/student/18/change/?_changelist_filters=o%3D1 HTTP/1.1" 200 38534
+[17/Nov/2025 06:51:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[17/Nov/2025 06:51:44] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[17/Nov/2025 06:51:44] "POST /api/login/ HTTP/1.1" 200 621
+[17/Nov/2025 06:51:46] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:51:46] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:52:54] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:52:54] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:53:02] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 06:53:02] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:53:02] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 06:53:02] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 06:53:02] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 06:53:02] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:53:02] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 06:53:02] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 06:53:05] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 06:53:06] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 06:53:32] "OPTIONS /api/courseenrollment/ HTTP/1.1" 200 0
+[17/Nov/2025 06:53:33] "POST /api/courseenrollment/ HTTP/1.1" 201 145
+[17/Nov/2025 06:54:00] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:54:00] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:54:00] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:54:00] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:54:05] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:54:05] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:54:35] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:54:35] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 06:54:35] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 06:54:35] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 06:54:35] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 06:54:35] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 06:54:35] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 06:54:35] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 06:54:39] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 06:54:39] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 06:55:40] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 06:55:40] "GET /api/course/ HTTP/1.1" 200 19318
+Not Found: /api/
+[17/Nov/2025 06:55:50] "GET /api/ HTTP/1.1" 404 38419
+[17/Nov/2025 06:56:09] "GET /api/course/ HTTP/1.1" 200 54010
+[17/Nov/2025 07:11:52] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 07:11:52] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 07:11:52] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 07:11:52] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 07:11:52] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 07:11:52] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 07:11:52] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 07:11:52] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 07:12:34] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 07:12:34] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+books not found when generating links
+[17/Nov/2025 07:35:57] "GET /admin/api/academicyear/ HTTP/1.1" 200 26254
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 265, in wrapper
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 246, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 388, in i18n_javascript
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/i18n.py", line 124, in get
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/i18n.py", line 216, in render_to_response
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/i18n_catalog.js'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/whitenoise/middleware.py", line 123, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/corsheaders/middleware.py", line 56, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/wsgiref/handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 80, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 140, in get_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+[17/Nov/2025 07:35:57] "GET /admin/jsi18n/ HTTP/1.1" 500 59
+books not found when generating links
+[17/Nov/2025 07:35:59] "GET /admin/ HTTP/1.1" 200 66925
+Not Found: /api/completedcourses/
+[17/Nov/2025 07:36:21] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/progresscourses/
+[17/Nov/2025 07:36:21] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 07:36:21] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+[17/Nov/2025 07:36:21] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/studentprogress/
+[17/Nov/2025 07:36:21] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/completedcourses/
+[17/Nov/2025 07:36:21] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 07:36:21] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/progresscourses/
+[17/Nov/2025 07:36:21] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 07:36:55] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 07:36:56] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 07:37:07] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 07:37:07] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 07:48:08] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 07:48:09] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 07:50:12] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 07:50:13] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:09:28] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:09:28] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 08:09:29] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:09:29] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 08:13:23] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 08:13:23] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:52:02] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 08:52:02] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 08:52:02] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:52:02] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 08:52:03] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 08:52:03] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 181, in _get_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/urls/resolvers.py", line 705, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'loginexisting/' [name='loginexisting']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'student/' [name='student-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'student/<int:pk>/' [name='student-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'teacher/' [name='teacher-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'teacher/<int:pk>/' [name='teacher-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursecategory/' [name='coursecategory-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'course/' [name='course-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'course/<int:pk>/' [name='course-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursecategory/<int:pk>/' [name='coursecategory-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'login/' [name='login']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'register/' [name='register']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursevideo/' [name='coursevideo-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursevideo/<int:pk>/' [name='coursevideo-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'chapters/' [name='chapter-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'chapters/<int:pk>/' [name='chapter-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'courseenrollment/' [name='courseenrollment']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'courseenrollmentlist/' [name='courseenrollment-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'courseenrollment/<int:pk>/' [name='courseenrollment-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'studentprogress/' [name='studentprogress']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'quiz/' [name='quiz-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'quiz/<int:pk>/' [name='quiz-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'superadminlogin/' [name='superadminlogin']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'superadminlogout/' [name='superadminlogout']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'logout/' [name='logout']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'addcourse/' [name='addcourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'displaycourse/' [name='displaycourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatecourse/<str:name>' [name='updatecourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletecourse/<str:name>' [name='deltecourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createcertificate/' [name='createcertificate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'certificateview/' [name='certificateview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'certificate/' [name='certificate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'success/' [name='success']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'courseenrollmentprogress/' [name='courseenrollmentprogress']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'material/' [name='material']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'courseenrollstatus/' [name='courseenrollstatus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createcategory' [name='createcategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatecategory/<str:name>' [name='updatecategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletecategory/<str:name>' [name='deletecategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createchapter/' [name='createchapter']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatechapter/<str:name>' [name='updatechapter']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletechapter/<str:name>' [name='deletechapter']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createcategory' [name='createcategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatecategory/<str:name>' [name='updatecategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletecategory/<str:name>' [name='deletecategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createcvideo/' [name='createvideo']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatevideo/<str:name>' [name='updatevideo']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletevideo/<str:name>' [name='deletevideo']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createdocument/' [name='createdocument']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatedocument/<str:name>' [name='updatedocument']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletedocument/<str:name>' [name='deletedocument']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createquiz/' [name='createquiz']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatequiz/<str:name>' [name='updatequiz']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletequiz/<str:name>' [name='deletequiz']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursedocument/' [name='coursedocument']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createtext/' [name='createtext']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updatetext/<str:name>' [name='updatetext']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deletetext/<str:name>' [name='deletetext']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'admindashbord/' [name='admindashboard']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'university/' [name='university-list']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'university/<int:pk>/' [name='university-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'adduniversity/' [name='adduniversity']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updateuniversity/<str:name>' [name='updateuniversity']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deleteuniversity/<str:name>' [name='deleteuniversity']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'studentdashboard/' [name='studentdashboard']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'universitydashboard/' [name='universitydashboard']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'teacherdashboard/' [name='teacherdashboard']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assignedstudentlist/' [name='assignedstudentlist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigntouni/' [name='assigntouni']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assignunivelist/' [name='assignunilist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assignunidetail/<int:pk>' [name='assignunidetail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'asigntounidelete/' [name='asigntounidelete']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetofaculty/' [name='assigncoursetofaculty']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetofacultylist/' [name='assigncoursetofacultylist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetofacultydetail/<int:pk>' [name='assigncoursetofacultydetail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getfacultycourse/' [name='getfacultycourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetostudentlist/' [name='assigncoursetostudentlist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetostudentdetail/<int:pk>' [name='assigncoursetostudentdetail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'assigncoursetostudent/' [name='assigncoursetostudent']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getstudentbyuni/' [name='getstudentbyuni']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getfacultyuni/' [name='getfacultyuni']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'uploadcertificate/' [name='uploadcertificate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'compledtedcourses/' [name='completedcourses']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'completedcoursestatus/' [name='completedcoursestatus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'savequizscore/' [name='savequizscore']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'sendotp/' [name='sendotp']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'verifyotp/' [name='verifyotp']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'unicourses/' [name='unicourses']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'quizresultlistview/' [name='quizresultlistview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'chapterstatuscreate/' [name='chapterstatuscreate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'chapterstatus/' [name='chapterstatus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'chapterstatusview/' [name='chapterstatusview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createtemplate/' [name='createtemplate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'templateview/' [name='templateview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'feedbacklistview/' [name='feedbacklistview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getfeedback/' [name='getfeedback']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'feedbackview/' [name='feedbackview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'set-password/' [name='set_password']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'studentdelete/' [name='studentdelete']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'facultydelete/' [name='facultydelete']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'bulkupload/' [name='bulkupload']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'addtemplatecourse/' [name='addtemplatecourse']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createsem/' [name='createsem']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'semsterlist/' [name='semsterlist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getsyllabus/' [name='getsyllabus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createblogs/' [name='createblogs']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deleteblogs/<str:name>' [name='deleteblogs']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'listblogs/' [name='listblogs']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'edituserprofile/<str:email>' [name='edituserprofile']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'completedcourses/' [name='completedcourses']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'progresscourses/' [name='progresscourses']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'getcertificate/<str:email>' [name='getcertificate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deleteblogs/' [name='deleteblogs']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'editblog/<int:id>/'>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'quizresults/' [name='quizresults']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'coursecompletestatus/' [name='coursecompletestatus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'completestatusview/' [name='completestatusview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'userprofileview/<str:email>/' [name='userprofileview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'certificatetemplatedelete/' [name='certificatetemplatedelete']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'certificatetemplateupdate/' [name='certificatetemplateupdate']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'contactlistview/' [name='contactlistview']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'contactus/<int:pk>' [name='contactus-detail']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'sendcontactus/' [name='sendcontactus']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'studentdetails/' [name='studentdetails']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'bloglcategorylist/' [name='bloglcategorylist']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'createblogcategory/' [name='createblogcategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'updateblogcategory/<str:name>/' [name='updateblogcategory']>], [<URLResolver <module 'api.urls' from '/home/thirdvizion-lms/Scopik_backend/api/urls.py'> (None:None) 'api/'>, <URLPattern 'deleteblogcategory/<str:name>/' [name='deleteblogcategory']>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'api/'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/whitenoise/middleware.py", line 123, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 66, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 636, in technical_404_response
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/utils/deprecation.py", line 120, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/corsheaders/middleware.py", line 56, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/wsgiref/handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 80, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 140, in get_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 57, in inner
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 69, in technical_500_response
+  File "/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/debug.py", line 426, in get_traceback_html
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thirdvizion-scopikdemo/Scopik_backend/env/lib/python3.12/site-packages/django/views/templates/technical_500.html'
+[17/Nov/2025 09:00:11] "GET /api/ HTTP/1.1" 500 59
+[17/Nov/2025 09:00:17] "GET /api/course/ HTTP/1.1" 200 54010
+[17/Nov/2025 09:00:24] "GET /api/course/ HTTP/1.1" 200 54010
+[17/Nov/2025 09:05:33] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:05:33] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:05:33] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:05:33] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:15:07] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 09:15:07] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 09:15:07] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:15:08] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:15:11] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:15:11] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:16:51] "OPTIONS /api/coursecompletestatus/ HTTP/1.1" 200 0
+Bad Request: /api/coursecompletestatus/
+[17/Nov/2025 09:16:51] "POST /api/coursecompletestatus/ HTTP/1.1" 400 38
+[17/Nov/2025 09:17:07] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:17:07] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:17:10] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:10] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:10] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:10] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:17:10] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:10] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:10] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:10] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:17:12] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 09:17:12] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 09:17:24] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:24] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:24] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:24] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:17:24] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:24] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:24] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:24] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:17:29] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 09:17:29] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com&course_id=2 HTTP/1.1" 200 702
+[17/Nov/2025 09:17:46] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:17:46] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:17:47] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:47] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:47] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:47] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:17:47] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 09:17:47] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 09:17:47] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 09:17:47] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 09:18:00] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:18:00] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:18:55] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:18:55] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=DEEP+LEARNING HTTP/1.1" 200 77
+[17/Nov/2025 09:18:55] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:18:56] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=DEEP+LEARNING HTTP/1.1" 200 77
+[17/Nov/2025 09:19:05] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:05] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=++CS50%E2%80%99s HTTP/1.1" 200 74
+[17/Nov/2025 09:19:05] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:05] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=++CS50%E2%80%99s HTTP/1.1" 200 74
+[17/Nov/2025 09:19:13] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:14] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:19] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:20] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:19:20] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:19:20] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:26:08] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:26:08] "GET /api/course/ HTTP/1.1" 200 19318
+books not found when generating links
+[17/Nov/2025 09:26:19] "GET /admin/ HTTP/1.1" 200 66935
+[17/Nov/2025 09:29:19] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:29:20] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:29:20] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:29:20] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:36:57] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:36:57] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:36:57] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:36:57] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:05] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:37:05] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:06] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:37:06] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:06] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:06] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:25] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:37:26] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:26] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:37:26] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:30] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:30] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:32] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:37:32] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:38:11] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:38:11] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:38:22] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:38:22] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=DEEP+LEARNING HTTP/1.1" 200 77
+[17/Nov/2025 09:38:22] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:38:22] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=DEEP+LEARNING HTTP/1.1" 200 77
+[17/Nov/2025 09:38:27] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:38:27] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:38:28] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:38:28] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:42:35] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:42:35] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 09:44:57] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:44:58] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:44:58] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:44:58] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:45:50] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:45:51] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:45:58] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:45:59] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:46:43] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:46:43] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:46:43] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:46:43] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 09:57:59] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 09:57:59] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:10:03] "GET /admin/ HTTP/1.1" 302 0
+[17/Nov/2025 10:10:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+[17/Nov/2025 10:10:06] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3220
+books not found when generating links
+[17/Nov/2025 10:10:23] "GET /admin/ HTTP/1.1" 200 66935
+books not found when generating links
+[17/Nov/2025 10:10:39] "GET /admin/ HTTP/1.1" 200 66935
+[17/Nov/2025 10:11:07] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:11:07] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:13:47] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:13:47] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:14:49] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:14:49] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:14:49] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:14:49] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:16:50] "OPTIONS /api/course/ HTTP/1.1" 200 0
+[17/Nov/2025 10:16:50] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:17:36] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:17:36] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:17:38] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:17:38] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:17:38] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:17:39] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:17:44] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:17:45] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:19:44] "GET /api/course/ HTTP/1.1" 200 19318
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Requested email: scopikadmin@gmail.com
+scopikadmin@gmail.com
+scopikadmin@gmail.com
+Requested email: scopikadmin@gmail.com
+scopikadmin@gmail.com
+Requested email: scopikadmin@gmail.com
+scopikadmin@gmail.com
+Requested email: scopikadmin@gmail.com
+Student enrollment process completed.
+paazil3rdviz@gmail.com paazil3rdviz@gmail.com student
+Student enrollment process completed.
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Student enrollment process completed.
+paazil3rdviz@gmail.com 2 paazil 7397359397 990
+7397359397
+Paazil Parvesh
+DEEP LEARNING
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+scopikadmin@gmail.com
+Requested email: scopikadmin@gmail.com
+scopikadmin@gmail.com
+Requested email: scopikadmin@gmail.com
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+MACHINE LEARNING paazil3rdviz@gmail.com
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com
+Requested email: paazil3rdviz@gmail.com
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com DEEP LEARNING
+3
+paazil3rdviz@gmail.com DEEP LEARNING
+3
+paazil3rdviz@gmail.com   CS50’s
+3
+paazil3rdviz@gmail.com   CS50’s
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com DEEP LEARNING
+3
+paazil3rdviz@gmail.com DEEP LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+Student enrollment process completed.
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+paazil3rdviz@gmail.com MACHINE LEARNING
+3
+Student enrollment process completed.
+paazil3rdviz@gmail.com [17/Nov/2025 10:19:44] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:19:44] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:19:44] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:19:55] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:19:55] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:19:56] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:19:57] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:20:14] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:20:15] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 10:20:15] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 10:20:15] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 10:20:15] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:20:15] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 10:20:15] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 10:20:15] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 10:20:15] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:20:15] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:20:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:20:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:24:09] "GET /api/studentprogress/?email=scopikadmin%40gmail.com&course_id=2 HTTP/1.1" 404 29
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:24:09] "GET /api/studentprogress/?email=scopikadmin%40gmail.com&course_id=2 HTTP/1.1" 404 29
+[17/Nov/2025 10:24:18] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:24:18] "GET /api/listblogs/ HTTP/1.1" 200 6032
+Not Found: /api/progresscourses/
+[17/Nov/2025 10:24:39] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:24:39] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:24:39] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:24:39] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/progresscourses/
+[17/Nov/2025 10:24:39] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:24:39] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:24:39] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:24:39] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+[17/Nov/2025 10:24:40] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:24:41] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:25:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:25:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:25:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:25:17] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:25:49] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:25:49] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:25:49] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:25:49] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:26:05] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:26:06] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:26:06] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:26:06] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:27:09] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:27:10] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:28:40] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:28:41] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:29:44] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:29:45] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:34:31] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:34:32] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:34:45] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:34:45] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:34:54] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:34:54] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:35:54] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:35:54] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:35:54] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:35:54] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:35:59] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:35:59] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:00] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:00] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:30] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:31] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:31] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:31] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:32] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:36:32] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:32] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:36:32] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:32] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:32] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:33] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:33] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:36:33] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 10:36:33] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 10:36:33] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 10:36:33] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:36:33] "GET /api/progresscourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 36
+[17/Nov/2025 10:36:33] "GET /api/studentprogress/?email=paazil3rdviz%40gmail.com HTTP/1.1" 200 702
+[17/Nov/2025 10:36:33] "GET /api/completedcourses/?email=paazil3rdviz@gmail.com HTTP/1.1" 200 395
+[17/Nov/2025 10:36:33] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:36:35] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:36:35] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:38:42] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:38:42] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:38:48] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:38:48] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:39:34] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:39:35] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:41:07] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:41:08] "GET /api/course/ HTTP/1.1" 200 19318
+[17/Nov/2025 10:41:09] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:41:09] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:42:40] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:42:40] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:42:40] "GET /api/coursecategory/ HTTP/1.1" 200 237
+[17/Nov/2025 10:42:40] "GET /api/listblogs/ HTTP/1.1" 200 6032
+[17/Nov/2025 10:42:42] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/progresscourses/
+[17/Nov/2025 10:42:42] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:42:42] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:42:42] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:42:42] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:42:42] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:42:42] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/progresscourses/
+[17/Nov/2025 10:42:42] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:42:46] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:42:46] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/progresscourses/
+[17/Nov/2025 10:42:46] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:42:46] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:42:46] "GET /api/coursecategory/ HTTP/1.1" 200 237
+Not Found: /api/progresscourses/
+Not Found: /api/studentprogress/
+[17/Nov/2025 10:42:46] "GET /api/progresscourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:42:46] "GET /api/studentprogress/?email=scopikadmin%40gmail.com HTTP/1.1" 404 29
+Not Found: /api/completedcourses/
+[17/Nov/2025 10:42:46] "GET /api/completedcourses/?email=scopikadmin@gmail.com HTTP/1.1" 404 30
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:58] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:59] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:59] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:59] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:43:59] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:00] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:00] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
+[17/Nov/2025 10:44:14] "GET /api/chapterstatusview/?email=paazil3rdviz%40gmail.com&course=MACHINE+LEARNING HTTP/1.1" 200 229
