@@ -12,7 +12,7 @@ cd - > /dev/null
 
 # Backend
 echo "🐍 Running Backend Checks..."
-cd ../Backend/Ai_Lms_Backed
+cd ../Backend/Ai_LMS_Backed
 python3 -m py_compile $(find . -name "*.py")
 python3 manage.py check
 cd - > /dev/null
