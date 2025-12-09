@@ -3,17 +3,18 @@ set -e
 
 echo "🔍 Running Sanity Checks..."
 
-# Frontend build check
+# Frontend
 echo "🧪 Checking Frontend Build..."
 cd ../Ai_LMS_Frontend
-npm ci
+npm ci --prefer-offline --no-audit --silent
 npm run build
 cd - > /dev/null
 
-# Backend Python syntax check
-echo "🐍 Checking Backend Syntax..."
-cd ../Backend/Ai_Lms_Backend
+# Backend
+echo "🐍 Running Backend Checks..."
+cd ../Backend/Ai_LMS_Backed
 python3 -m py_compile $(find . -name "*.py")
+python3 manage.py check
 cd - > /dev/null
 
-echo "✔ All sanity checks passed!"
+echo "✔ Sanity checks passed!"
