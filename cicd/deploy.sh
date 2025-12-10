@@ -18,15 +18,14 @@ npm run build
 cd - > /dev/null
 
 echo "🧹 Cleaning old frontend files..."
-ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/*"
+ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/dist"
 
 echo "📦 Uploading new frontend build..."
-scp -r ${FRONTEND_DIR}/dist/* $SERVER_USER@$SERVER_IP:${WEB_PATH}/
+scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 
 echo "✨ Frontend deployed!"
 
 echo "🚀 Deploying Django Backend..."
-
 ssh $SERVER_USER@$SERVER_IP "
 mkdir -p ${BACKEND_PATH}
 rm -rf ${BACKEND_PATH}/project
@@ -36,13 +35,11 @@ scp -r "$BACKEND_DIR" $SERVER_USER@$SERVER_IP:"${BACKEND_PATH}/project"
 
 ssh $SERVER_USER@$SERVER_IP "
 cd ${BACKEND_PATH}
-if [ ! -d \"venv\" ]; then
-    python3 -m venv venv
-fi
-
+python3 -m venv venv
 source venv/bin/activate
 pip install -r project/requirements.txt
 cd project
+python manage.py makemigrations --noinput
 python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 "
