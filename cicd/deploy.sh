@@ -9,11 +9,11 @@ WEB_PATH="${APP_ROOT}/htdocs/furnicho.thirdvizion.com"
 BACKEND_PATH="${APP_ROOT}/backend"
 
 FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_LMS_Backed"
+BACKEND_DIR="../Backend/Ai_LMS_Backend"
 
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
-npm install --silent
+npm ci --silent
 npm run build
 cd - > /dev/null
 
@@ -26,6 +26,7 @@ scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 echo "✨ Frontend deployed!"
 
 echo "🚀 Deploying Django Backend..."
+
 ssh $SERVER_USER@$SERVER_IP "
 mkdir -p ${BACKEND_PATH}
 rm -rf ${BACKEND_PATH}/project
@@ -41,9 +42,11 @@ pip install -r project/requirements.txt
 cd project
 python manage.py makemigrations --noinput
 python manage.py migrate --noinput
+
+rm -rf staticfiles
 python manage.py collectstatic --noinput
 "
 
-ssh $SERVER_USER@$SERVER_IP "systemctl restart furnicho"
+ssh $SERVER_USER@$SERVER_IP "systemctl restart <your-service-name>"
 
 echo "💯 Deployment Completed!"
