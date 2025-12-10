@@ -32,7 +32,8 @@ pipeline {
                 dir(BACKEND_DIR) {
                     sh '''
                         python3 -m venv venv
-                        source venv/bin/activate
+                        . venv/bin/activate
+                        pip install --upgrade pip
                         pip install -r requirements.txt
                     '''
                 }
@@ -43,14 +44,6 @@ pipeline {
             steps {
                 dir(FRONTEND_DIR) {
                     sh 'npm run build'
-                }
-            }
-        }
-
-        stage('Backend Sanity Test') {
-            steps {
-                dir(BACKEND_DIR) {
-                    sh 'python3 -m py_compile $(find . -name "*.py")'
                 }
             }
         }

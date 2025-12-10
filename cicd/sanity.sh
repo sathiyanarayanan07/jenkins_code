@@ -3,21 +3,28 @@ set -e
 
 echo "🔍 Running Sanity Checks..."
 
-# =======================
-# FRONTEND TEST
-# =======================
-echo "🧪 Testing React Build..."
+# FRONTEND
+echo "🧪 Checking Frontend Build..."
 cd ../Ai_LMS_Frontend
 npm install --silent
 npm run build
-cd - >/dev/null
+cd - > /dev/null
 
-# =======================
-# BACKEND TEST
-# =======================
-echo "🐍 Checking Django Syntax..."
+# BACKEND
+echo "🐍 Checking Backend Dependencies..."
 cd ../Backend/Ai_LMS_Backed
-python3 -m py_compile $(find . -name "*.py")
-cd - >/dev/null
 
-echo "✔ All sanity checks passed!"
+# Create virtual environment
+python3 -m venv venv
+. venv/bin/activate
+
+# Install python requirements
+pip install --quiet -r requirements.txt
+
+echo "✔ Checking Django..."
+python manage.py check
+
+echo "✔ Backend OK"
+cd - > /dev/null
+
+echo "🎉 All checks passed!"
