@@ -9,7 +9,7 @@ WEB_PATH="${APP_ROOT}/htdocs/furnicho.thirdvizion.com"
 BACKEND_PATH="${APP_ROOT}/backend"
 
 FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_LMS_Backend"   # FIXED NAME
+BACKEND_DIR="../Backend/Ai_LMS_Backed"   # FIXED NAME
 
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
@@ -53,7 +53,5 @@ rm -rf staticfiles
 python manage.py collectstatic --noinput
 "
 
-echo "🔁 Restarting Backend Service..."
-ssh $SERVER_USER@$SERVER_IP "systemctl restart furnicho"  # CHANGED
 
 echo "💯 Deployment Completed!"
