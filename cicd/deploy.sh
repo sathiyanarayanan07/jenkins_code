@@ -26,7 +26,12 @@ scp -r ${FRONTEND_DIR}/dist/* $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 echo "✨ Frontend deployed!"
 
 echo "🚀 Deploying Django Backend..."
-ssh $SERVER_USER@$SERVER_IP "rm -rf ${BACKEND_PATH}/project"
+
+ssh $SERVER_USER@$SERVER_IP "
+mkdir -p ${BACKEND_PATH}
+rm -rf ${BACKEND_PATH}/project
+"
+
 scp -r "$BACKEND_DIR" $SERVER_USER@$SERVER_IP:"${BACKEND_PATH}/project"
 
 ssh $SERVER_USER@$SERVER_IP "
