@@ -48,6 +48,6 @@ python manage.py collectstatic --noinput
 "
 
 echo "🔁 Restarting backend..."
-ssh $SERVER_USER@$SERVER_IP "systemctl restart furnicho"
+ssh $SERVER_USER@$SERVER_IP "systemctl restart nginx"
 
 echo "💯 Deployment Completed!"
