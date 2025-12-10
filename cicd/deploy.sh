@@ -9,7 +9,7 @@ WEB_PATH="${APP_ROOT}/htdocs/furnicho.thirdvizion.com"
 BACKEND_PATH="${APP_ROOT}/backend"
 
 FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_Lms_Backed"
+BACKEND_DIR="../Backend/Ai_LMS_Backed"
 
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
