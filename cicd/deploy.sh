@@ -44,7 +44,7 @@ pip install --no-cache-dir -r requirements.txt
 
 python manage.py makemigrations --noinput || true
 python manage.py migrate --noinput
-python manage.py collectstatic --noinput
+python manage.py collectstatic --clear --noinput
 "
 
 echo "🔁 Restarting backend..."
