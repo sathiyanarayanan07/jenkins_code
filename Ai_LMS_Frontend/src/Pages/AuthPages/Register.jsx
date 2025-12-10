@@ -134,7 +134,7 @@ function Register() {
           <h1 className="text-4xl md:text-6xl font-bold text-[#a05a00] text-center leading-tight">
             Join the <br />
             <span className="text-3xl md:text-5xl text-[#ff7f50]">
-              Next Generation
+              Next Generation 2025
             </span>
           </h1>
           <Lottie
@@ -286,3 +286,4 @@ function Register() {
 }
 
 export default Register;
+
