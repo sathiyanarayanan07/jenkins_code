@@ -45,3 +45,5 @@ python manage.py collectstatic --noinput
 ssh $SERVER_USER@$SERVER_IP "systemctl restart furnicho"
 
 echo "💯 Deployment Completed!"
+
+
