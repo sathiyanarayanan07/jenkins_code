@@ -21,7 +21,7 @@ echo "🧹 Cleaning old frontend files..."
 ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/*"
 
 echo "📦 Uploading new frontend build..."
-scp -r "${FRONTEND_DIR}/dist/*" $SERVER_USER@$SERVER_IP:"${WEB_PATH}"
+scp -r ${FRONTEND_DIR}/dist/* $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 
 echo "✨ Frontend deployed!"
 
