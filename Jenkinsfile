@@ -13,30 +13,50 @@ pipeline {
       }
     }
 
+    /* -------------------------------
+       INSTALL FRONTEND
+    --------------------------------*/
     stage('Install Frontend') {
       steps {
         dir('Ai_LMS_Frontend') {
-          sh ''
+          sh '''
+            echo "📦 Installing frontend dependencies..."
+            npm install --silent
+
+            echo "🏗 Building frontend..."
             npm run build
           '''
         }
       }
     }
 
+    /* -------------------------------
+       INSTALL BACKEND
+    --------------------------------*/
     stage('Install Backend') {
       steps {
         dir('Backend/Ai_LMS_Backed') {
           sh '''
+            echo "🐍 Creating virtual environment..."
             python3 -m venv venv
+
+            echo "⬇ Installing pip..."
             curl -sS https://bootstrap.pypa.io/get-pip.py -o get-pip.py
             venv/bin/python get-pip.py
-            venv/bin/pip install --upgrade pip
+
+            echo "⬆ Upgrading pip..."
+            venv/bin/pip install --upgrade pip setuptools wheel
+
+            echo "📦 Installing backend dependencies..."
             venv/bin/pip install -r requirements.txt
           '''
         }
       }
     }
 
+    /* -------------------------------
+       SANITY TEST
+    --------------------------------*/
     stage('Sanity Test') {
       steps {
         dir('cicd') {
@@ -48,6 +68,9 @@ pipeline {
       }
     }
 
+    /* -------------------------------
+       DEPLOYMENT
+    --------------------------------*/
     stage('Deploy') {
       steps {
         dir('cicd') {
