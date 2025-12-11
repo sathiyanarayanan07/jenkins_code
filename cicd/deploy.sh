@@ -9,7 +9,7 @@ WEB_PATH="${APP_ROOT}/htdocs/furnicho.thirdvizion.com"
 BACKEND_PATH="${APP_ROOT}/backend"
 
 FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_LMS_Backed"   # FIXED NAME
+BACKEND_DIR="../Backend/Ai_LMS_Backed"
 
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
@@ -21,7 +21,6 @@ echo "🧹 Cleaning old frontend files..."
 ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/dist"
 
 echo "📦 Uploading new frontend build..."
-# Upload full dist folder
 scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 
 echo "✨ Frontend deployed!"
@@ -37,13 +36,12 @@ scp -r "$BACKEND_DIR" $SERVER_USER@$SERVER_IP:"${BACKEND_PATH}/project"
 ssh $SERVER_USER@$SERVER_IP "
 cd ${BACKEND_PATH}
 
-# Create/Activate venv
 if [ ! -d venv ]; then
-  python3 -m venv venv
+    python3 -m venv venv
 fi
 source venv/bin/activate
 
-pip install --no-cache-dir -r project/requirements.txt
+pip install --break-system-packages --no-cache-dir -r project/requirements.txt
 
 cd project
 python manage.py makemigrations --noinput || true
@@ -52,6 +50,5 @@ python manage.py migrate --noinput
 rm -rf staticfiles
 python manage.py collectstatic --noinput
 "
-
 
 echo "💯 Deployment Completed!"
