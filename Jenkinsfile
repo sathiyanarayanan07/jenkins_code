@@ -16,7 +16,9 @@ pipeline {
     stage('Install Frontend') {
       steps {
         dir('Ai_LMS_Frontend') {
-          sh 'npm install'
+          sh '''
+            npm install
+          '''
         }
       }
     }
@@ -26,8 +28,8 @@ pipeline {
         dir('Backend/Ai_LMS_Backed') {
           sh '''
             python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
+            venv/bin/python -m pip install --upgrade pip
+            venv/bin/python -m pip install -r requirements.txt
           '''
         }
       }
@@ -44,8 +46,10 @@ pipeline {
     stage('Sanity Test') {
       steps {
         dir('cicd') {
-          sh 'chmod +x sanity.sh'
-          sh './sanity.sh'
+          sh '''
+            chmod +x sanity.sh
+            ./sanity.sh
+          '''
         }
       }
     }
@@ -53,8 +57,10 @@ pipeline {
     stage('Deploy') {
       steps {
         dir('cicd') {
-          sh 'chmod +x deploy.sh'
-          sh './deploy.sh'
+          sh '''
+            chmod +x deploy.sh
+            ./deploy.sh
+          '''
         }
       }
     }
