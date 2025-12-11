@@ -11,20 +11,24 @@ BACKEND_PATH="${APP_ROOT}/backend"
 FRONTEND_DIR="../Ai_LMS_Frontend"
 BACKEND_DIR="../Backend/Ai_LMS_Backed"   # FIXED NAME
 
+
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
 npm ci --silent
 npm run build
 cd - > /dev/null
 
-echo "🧹 Cleaning old frontend files..."
+
+echo "🧹 Cleaning old frontend files on server..."
 ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/dist"
 
+
 echo "📦 Uploading new frontend build..."
-# Upload full dist folder
 scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 
+
 echo "✨ Frontend deployed!"
+
 
 echo "🚀 Deploying Django Backend..."
 ssh $SERVER_USER@$SERVER_IP "
@@ -32,26 +36,31 @@ mkdir -p ${BACKEND_PATH}
 rm -rf ${BACKEND_PATH}/project
 "
 
+# Upload backend code
 scp -r "$BACKEND_DIR" $SERVER_USER@$SERVER_IP:"${BACKEND_PATH}/project"
 
+
+echo "⚙ Running backend setup..."
 ssh $SERVER_USER@$SERVER_IP "
 cd ${BACKEND_PATH}
 
-# Create/Activate venv
+# Create venv if missing
 if [ ! -d venv ]; then
-  python3 -m venv venv
+    python3 -m venv venv
 fi
-source venv/bin/activate
 
-pip install --no-cache-dir -r project/requirements.txt
+# Install python deps using venv pip (NO activate needed)
+venv/bin/pip install --no-cache-dir --upgrade pip
+venv/bin/pip install --no-cache-dir -r project/requirements.txt
 
+# Run Django commands with venv python
 cd project
-python manage.py makemigrations --noinput || true
-python manage.py migrate --noinput
+venv/bin/python manage.py makemigrations --noinput || true
+venv/bin/python manage.py migrate --noinput
 
 rm -rf staticfiles
-python manage.py collectstatic --noinput
+venv/bin/python manage.py collectstatic --noinput
 "
 
 
-echo "💯 Deployment Completed!"
+echo "💯 Deployment Completed Successfully!"

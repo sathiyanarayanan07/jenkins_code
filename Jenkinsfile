@@ -31,10 +31,14 @@ pipeline {
             steps {
                 dir(BACKEND_DIR) {
                     sh '''
+                        # Create venv
                         python3 -m venv venv
-                        . venv/bin/activate
-                        pip install --upgrade pip
-                        pip install -r requirements.txt
+
+                        # Upgrade pip using venv pip
+                        venv/bin/pip install --upgrade pip
+
+                        # Install backend dependencies
+                        venv/bin/pip install -r requirements.txt
                     '''
                 }
             }

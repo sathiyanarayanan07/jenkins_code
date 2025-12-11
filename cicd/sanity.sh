@@ -10,19 +10,20 @@ npm install --silent
 npm run build
 cd - > /dev/null
 
+
 # BACKEND
 echo "🐍 Checking Backend Dependencies..."
 cd ../Backend/Ai_LMS_Backed
 
 # Create virtual environment
 python3 -m venv venv
-. venv/bin/activate
 
-# Install python requirements
-pip install --quiet -r requirements.txt
+# Install python requirements using venv pip (CI safe)
+venv/bin/pip install --quiet --upgrade pip
+venv/bin/pip install --quiet -r requirements.txt
 
 echo "✔ Checking Django..."
-python manage.py check
+venv/bin/python manage.py check
 
 echo "✔ Backend OK"
 cd - > /dev/null
