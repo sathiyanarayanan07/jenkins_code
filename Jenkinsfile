@@ -31,14 +31,24 @@ pipeline {
             steps {
                 dir(BACKEND_DIR) {
                     sh '''
-                        # Create venv
+                        echo "🐍 Creating Python Virtual Environment..."
                         python3 -m venv venv
 
-                        # Upgrade pip using venv pip
+                        echo "📂 Checking if venv was created correctly..."
+                        if [ ! -f "venv/bin/pip" ]; then
+                            echo "❌ ERROR: venv/bin/pip does NOT exist!"
+                            echo "👉 FIX REQUIRED: Install python3-venv on your Jenkins server"
+                            echo "   sudo apt install python3-venv python3-full -y"
+                            exit 1
+                        fi
+
+                        echo "⬆️ Upgrading pip inside venv..."
                         venv/bin/pip install --upgrade pip
 
-                        # Install backend dependencies
+                        echo "📦 Installing backend dependencies..."
                         venv/bin/pip install -r requirements.txt
+
+                        echo "✔ Backend dependencies installed successfully!"
                     '''
                 }
             }
