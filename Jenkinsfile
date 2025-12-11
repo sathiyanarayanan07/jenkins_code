@@ -17,7 +17,7 @@ pipeline {
       steps {
         dir('Ai_LMS_Frontend') {
           sh '''
-            npm install
+            npm ci
           '''
         }
       }
@@ -25,11 +25,13 @@ pipeline {
 
     stage('Install Backend') {
       steps {
-        dir('Backend/Ai_LMS_Backed') {
+        dir('Backend/Ai_LMS_Backend') {
           sh '''
             python3 -m venv venv
-            venv/bin/python -m pip install --upgrade pip
-            venv/bin/python -m pip install -r requirements.txt
+            curl -sS https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+            venv/bin/python get-pip.py
+            venv/bin/pip install --upgrade pip
+            venv/bin/pip install -r requirements.txt
           '''
         }
       }
