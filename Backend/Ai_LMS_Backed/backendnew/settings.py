@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "jazzmin",
     "cloudinary",
     "django_apscheduler",
-    #"cloudinary_storage",
+    "cloudinary_storage",
 
     "django.contrib.admin",
     "django.contrib.auth",
@@ -200,3 +200,4 @@ SIMPLE_JWT = {
 # -------------------------------------------------------------
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
