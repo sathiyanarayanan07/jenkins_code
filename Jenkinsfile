@@ -1,83 +1,62 @@
 pipeline {
-    agent any
+  agent any
 
-    tools {
-        nodejs "node22"
+  tools {
+    nodejs "node22"
+  }
+
+  stages {
+
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
     }
 
-    environment {
-        FRONTEND_DIR = "Ai_LMS_Frontend"
-        BACKEND_DIR  = "Backend/Ai_LMS_Backed"
-        CICD_DIR     = "cicd"
+    stage('Install Frontend') {
+      steps {
+        dir('Ai_LMS_Frontend') {
+          sh 'npm install'
+        }
+      }
     }
 
-    stages {
-
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
+    stage('Install Backend') {
+      steps {
+        dir('Backend/Ai_LMS_Backed') {
+          sh '''
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+          '''
         }
-
-        stage('Install Frontend Dependencies') {
-            steps {
-                dir(FRONTEND_DIR) {
-                    sh 'npm install'
-                }
-            }
-        }
-
-        stage('Install Backend Dependencies') {
-            steps {
-                dir(BACKEND_DIR) {
-                    sh '''
-                        echo "🐍 Creating Python Virtual Environment..."
-                        python3 -m venv venv
-
-                        echo "📂 Checking if venv was created correctly..."
-                        if [ ! -f "venv/bin/pip" ]; then
-                            echo "❌ ERROR: venv/bin/pip does NOT exist!"
-                            echo "👉 FIX REQUIRED: Install python3-venv on your Jenkins server"
-                            echo "   sudo apt install python3-venv python3-full -y"
-                            exit 1
-                        fi
-
-                        echo "⬆️ Upgrading pip inside venv..."
-                        venv/bin/pip install --upgrade pip
-
-                        echo "📦 Installing backend dependencies..."
-                        venv/bin/pip install -r requirements.txt
-
-                        echo "✔ Backend dependencies installed successfully!"
-                    '''
-                }
-            }
-        }
-
-        stage('Build Frontend') {
-            steps {
-                dir(FRONTEND_DIR) {
-                    sh 'npm run build'
-                }
-            }
-        }
-
-        stage('Sanity Test') {
-            steps {
-                dir(CICD_DIR) {
-                    sh 'chmod +x sanity.sh'
-                    sh './sanity.sh'
-                }
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                dir(CICD_DIR) {
-                    sh 'chmod +x deploy.sh'
-                    sh './deploy.sh'
-                }
-            }
-        }
+      }
     }
+
+    stage('Build Frontend') {
+      steps {
+        dir('Ai_LMS_Frontend') {
+          sh 'npm run build'
+        }
+      }
+    }
+
+    stage('Sanity Test') {
+      steps {
+        dir('cicd') {
+          sh 'chmod +x sanity.sh'
+          sh './sanity.sh'
+        }
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        dir('cicd') {
+          sh 'chmod +x deploy.sh'
+          sh './deploy.sh'
+        }
+      }
+    }
+  }
 }

@@ -4,88 +4,50 @@ set -e
 SERVER_USER="root"
 SERVER_IP="213.210.21.150"
 
-APP_ROOT="/home/thirdvizion-furnicho"
-WEB_PATH="${APP_ROOT}/htdocs/furnicho.thirdvizion.com"
-BACKEND_PATH="${APP_ROOT}/backend"
+WEB_PATH="/home/thirdvizion-furnicho/htdocs/furnicho.thirdvizion.com"
+BACKEND_PATH="${WEB_PATH}/backend"
 
 FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_LMS_Backed"   # Correct folder name
-
-
-############################################
-# FRONTEND DEPLOYMENT
-############################################
+BACKEND_DIR="../Backend/Ai_LMS_Backed"
 
 echo "🚀 Building React App..."
 cd "$FRONTEND_DIR"
-npm ci --silent
+npm install --silent
 npm run build
 cd - > /dev/null
 
-
-echo "🧹 Cleaning old frontend files on server..."
+echo "🧹 Remove old frontend dist..."
 ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/dist"
 
+echo "📦 Uploading new frontend..."
+scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
 
-echo "📦 Uploading new frontend build..."
-scp -r "${FRONTEND_DIR}/dist" $SERVER_USER@$SERVER_IP:"${WEB_PATH}/"
+echo "✨ Frontend deployed!"
 
-
-echo "✨ Frontend deployed successfully!"
-
-
-############################################
-# BACKEND DEPLOYMENT
-############################################
-
-echo "🚀 Preparing backend deploy on server..."
+echo "🚀 Deploying Django Backend..."
 ssh $SERVER_USER@$SERVER_IP "
 mkdir -p ${BACKEND_PATH}
-rm -rf ${BACKEND_PATH}/project
 "
 
-echo "📦 Uploading backend code..."
-scp -r "$BACKEND_DIR" $SERVER_USER@$SERVER_IP:"${BACKEND_PATH}/project"
+ssh $SERVER_USER@$SERVER_IP "rm -rf ${BACKEND_PATH}/*"
+scp -r ${BACKEND_DIR}/* $SERVER_USER@$SERVER_IP:${BACKEND_PATH}/
 
-
-echo "⚙ Running backend setup on server..."
 ssh $SERVER_USER@$SERVER_IP "
-set -e
 cd ${BACKEND_PATH}
 
-echo '🐍 Ensuring Python venv exists...'
 if [ ! -d venv ]; then
-    echo '🔧 Creating new virtual environment...'
     python3 -m venv venv
 fi
+source venv/bin/activate
 
-# Validate venv
-if [ ! -f 'venv/bin/pip' ]; then
-    echo '❌ ERROR: venv exists but pip is missing!'
-    echo '👉 FIX: Install python3-venv on the server:'
-    echo '   sudo apt install python3-venv python3-full -y'
-    exit 1
-fi
+pip install --no-cache-dir -r requirements.txt
 
-echo '⬆️ Upgrading pip...'
-venv/bin/pip install --no-cache-dir --upgrade pip
-
-echo '📦 Installing backend dependencies...'
-venv/bin/pip install --no-cache-dir -r project/requirements.txt
-
-
-echo '🛠 Applying migrations...'
-cd project
-venv/bin/python manage.py makemigrations --noinput || true
-venv/bin/python manage.py migrate --noinput
-
-
-echo '🧹 Collecting static files...'
-rm -rf staticfiles
-venv/bin/python manage.py collectstatic --noinput
-
-echo '✔ Backend deployed successfully!'
+python manage.py makemigrations --noinput || true
+python manage.py migrate --noinput
+python manage.py collectstatic --noinput
 "
 
+echo "🔁 Restarting backend..."
+ssh $SERVER_USER@$SERVER_IP "systemctl restart furnicho"
 
-echo "💯 Deployment Completed Successfully!"
+echo "💯 Deployment Completed!"
