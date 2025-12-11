@@ -29,18 +29,25 @@ ssh $SERVER_USER@$SERVER_IP "
 mkdir -p ${BACKEND_PATH}
 "
 
+echo "🧹 Cleaning old backend..."
 ssh $SERVER_USER@$SERVER_IP "rm -rf ${BACKEND_PATH}/*"
+
+echo "📦 Uploading new backend..."
 scp -r ${BACKEND_DIR}/* $SERVER_USER@$SERVER_IP:${BACKEND_PATH}/
 
+echo "🐍 Installing backend dependencies..."
 ssh $SERVER_USER@$SERVER_IP "
 cd ${BACKEND_PATH}
 
+# Create venv if not found
 if [ ! -d venv ]; then
     python3 -m venv venv
 fi
 source venv/bin/activate
 
-pip install --no-cache-dir -r requirements.txt
+# FIX for Python 3.12 / PEP 668
+pip install --upgrade pip --break-system-packages
+pip install --no-cache-dir -r requirements.txt --break-system-packages
 
 python manage.py makemigrations --noinput || true
 python manage.py migrate --noinput
