@@ -18,8 +18,9 @@ cd ../Backend/Ai_LMS_Backed
 python3 -m venv venv
 . venv/bin/activate
 
-# Install python requirements
-pip install --quiet -r requirements.txt
+# Install python requirements (PEP 668 fix)
+pip install --quiet --break-system-packages --upgrade pip
+pip install --quiet --break-system-packages -r requirements.txt
 
 echo "✔ Checking Django..."
 python manage.py check
