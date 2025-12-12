@@ -4,9 +4,11 @@ set -e
 SERVER_USER="root"
 SERVER_IP="213.210.21.150"
 
-WEB_PATH="/home/thirdvizion-furnicho/htdocs/furnicho.thirdvizion.com"
+# UPDATED WEB ROOT PATH
+WEB_PATH="/home/thirdvizion-lms/htdocs/lms.thirdvizion.com"
 BACKEND_PATH="${WEB_PATH}/backend"
 
+# LOCAL PROJECT PATHS
 FRONTEND_DIR="../Ai_LMS_Frontend"
 BACKEND_DIR="../Backend/Ai_LMS_Backed"
 
