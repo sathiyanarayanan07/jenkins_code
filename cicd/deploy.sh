@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-SERVER_USER="root"
-SERVER_IP="213.210.21.150"
 
 # UPDATED WEB ROOT PATH
 WEB_PATH="/home/thirdvizion-lms/htdocs/lms.thirdvizion.com"
