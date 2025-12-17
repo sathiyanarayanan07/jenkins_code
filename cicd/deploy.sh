@@ -1,53 +1,43 @@
 #!/usr/bin/env bash
 set -e
 
+# ===== CONFIGURATION =====
+SERVER_USER="thirdvizion"  # Replace with your server user (looks like 'thirdvizion')
+SERVER_IP="213.210.21.150"  # Replace with your server's IP address
+DEPLOY_DIR="/home/thirdvizion-fitnessapp/htdocs/fitnessapp.thirdvizion.com"
+LOCAL_BACKEND_DIR="../Backend/fitness"  # Path to your local backend directory
 
-# UPDATED WEB ROOT PATH
-WEB_PATH="/home/thirdvizion-lms/htdocs/lms.thirdvizion.com"
-BACKEND_PATH="${WEB_PATH}/backend"
+# ===== DEPLOY BACKEND =====
+echo "🚀 Deploying backend to server..."
+ssh $SERVER_USER@$SERVER_IP "mkdir -p ${DEPLOY_DIR}"
+ssh $SERVER_USER@$SERVER_IP "rm -rf ${DEPLOY_DIR}/*"
+scp -r ${LOCAL_BACKEND_DIR}/* $SERVER_USER@$SERVER_IP:${DEPLOY_DIR}/
 
-# LOCAL PROJECT PATHS
-FRONTEND_DIR="../Ai_LMS_Frontend"
-BACKEND_DIR="../Backend/Ai_LMS_Backed"
-
-echo "🚀 Building React App..."
-cd "$FRONTEND_DIR"
-npm install --silent
-npm run build
-cd - > /dev/null
-
-echo "🧹 Remove old frontend dist..."
-ssh $SERVER_USER@$SERVER_IP "rm -rf ${WEB_PATH}/dist"
-
-echo "📦 Uploading new frontend..."
-scp -r ${FRONTEND_DIR}/dist $SERVER_USER@$SERVER_IP:${WEB_PATH}/
-
-echo "✨ Frontend deployed!"
-
-echo "🚀 Deploying Django Backend..."
+# ===== SETUP VIRTUAL ENV AND DEPENDENCIES =====
+echo "🔧 Setting up virtual environment and installing dependencies..."
 ssh $SERVER_USER@$SERVER_IP "
-mkdir -p ${BACKEND_PATH}
-"
-
-ssh $SERVER_USER@$SERVER_IP "rm -rf ${BACKEND_PATH}/*"
-scp -r ${BACKEND_DIR}/* $SERVER_USER@$SERVER_IP:${BACKEND_PATH}/
-
-ssh $SERVER_USER@$SERVER_IP "
-cd ${BACKEND_PATH}
-
+cd ${DEPLOY_DIR}
 if [ ! -d venv ]; then
     python3 -m venv venv
 fi
-source venv/bin/activate
+. venv/bin/activate
+if [ -f requirements.txt ]; then
+    pip install --no-cache-dir -r requirements.txt
+else
+    echo 'ERROR: requirements.txt not found!'
+    exit 1
+fi
 
-pip install --no-cache-dir -r requirements.txt
-
-python manage.py makemigrations --noinput || true
-python manage.py migrate --noinput
-python manage.py collectstatic --noinput
+# Run migrations and collect static files
+python manage.py migrate --noinput || { echo 'Migration failed!'; exit 1; }
+python manage.py collectstatic --noinput || { echo 'Static collection failed!'; exit 1; }
 "
 
-echo "🔁 Restarting backend..."
-ssh $SERVER_USER@$SERVER_IP "systemctl restart nginx"
+# ===== RESTART SERVICES =====
+echo "🔄 Restarting gunicorn and nginx..."
+ssh $SERVER_USER@$SERVER_IP "
+sudo systemctl restart gunicorn || { echo 'Gunicorn restart failed!'; exit 1; }
+sudo systemctl restart nginx || { echo 'Nginx restart failed!'; exit 1; }
+"
 
-echo "💯 Deployment Completed!"
+echo "💯 Django backend deployed successfully!"
